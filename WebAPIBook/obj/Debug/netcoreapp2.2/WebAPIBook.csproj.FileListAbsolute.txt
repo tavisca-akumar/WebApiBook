@@ -1,0 +1,14 @@
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\bin\Debug\netcoreapp2.2\WebAPIBook.deps.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\bin\Debug\netcoreapp2.2\WebAPIBook.runtimeconfig.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\bin\Debug\netcoreapp2.2\WebAPIBook.runtimeconfig.dev.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\bin\Debug\netcoreapp2.2\WebAPIBook.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\bin\Debug\netcoreapp2.2\WebAPIBook.pdb
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.csprojResolveAssemblyReference.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.csproj.CoreCompileInputs.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.RazorAssemblyInfo.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.RazorAssemblyInfo.cs
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.AssemblyInfoInputs.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.AssemblyInfo.cs
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.RazorTargetAssemblyInfo.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBook\obj\Debug\netcoreapp2.2\WebAPIBook.pdb
