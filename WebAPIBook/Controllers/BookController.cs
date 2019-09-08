@@ -16,38 +16,44 @@ namespace WebAPIBook.Controllers
         BookServices bookService = new BookServices();
         // GET: api/values
         [HttpGet]
-        public IEnumerable<Book> Get()
+        public ActionResult Get()
         {
-            return bookService.Get();
+            var response = bookService.GetBooks();
+            return StatusCode(response.StatusCode,response);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public Book Get(int id)
+        public ActionResult Get(int id)
         {
-            return bookService.Get(id);
+            var response = bookService.GetBookbyId(id);
+            return StatusCode(response.StatusCode, response);
+
         }
 
         // POST api/values
         [HttpPost]
-        public IEnumerable<Book> Post([FromBody]Book book)
+        public ActionResult Post([FromBody]Book book)
         {
-            bookService.Post(book);
-            return bookService.Get();
+            var response = bookService.AddBook(book);
+            return StatusCode(response.StatusCode, response);
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public ActionResult Put(int id, [FromBody]Book book)
         {
+            var response = bookService.UpdateBook(id, book);
+            return StatusCode(response.StatusCode, response);
+
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public IEnumerable<Book> Delete(int id)
+        public ActionResult Delete(int id)
         {
-            bookService.Delete(id);
-            return bookService.Get();
+            var response=bookService.DeleteBook(id);
+            return StatusCode(response.StatusCode,response);
         }
     }
 }
