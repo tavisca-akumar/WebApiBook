@@ -1,0 +1,16 @@
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBookTest.deps.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBookTest.runtimeconfig.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBookTest.runtimeconfig.dev.json
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBookTest.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBookTest.pdb
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBook.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\bin\Debug\netcoreapp2.2\WebAPIBook.pdb
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.csprojResolveAssemblyReference.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.csproj.CoreCompileInputs.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.AssemblyInfoInputs.cache
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.AssemblyInfo.cs
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.dll
+C:\Users\akumar\source\repos\WebAPIBook\WebAPIBookTest\obj\Debug\netcoreapp2.2\WebAPIBookTest.pdb
