@@ -86,12 +86,14 @@ namespace WebAPIBook.Services
                         response.Message = "Success";
                         response.StatusCode = 200;
                         response.ErrorList = null;
+                        return response;
                     }
                 }
                 response.Data = null;
                 response.Message = "Book not found";
                 response.StatusCode = 404;
                 response.ErrorList.Add("The entered Id book is not available");
+                return response;
             }
 
             response.Data = null;
@@ -118,12 +120,14 @@ namespace WebAPIBook.Services
                         response.Message = "Success";
                         response.StatusCode = 200;
                         response.ErrorList = null;
+                        return response;
                     }
                 }
                 response.Data = null;
                 response.Message = "Book not found";
                 response.StatusCode = 404;
                 response.ErrorList.Add("The entered Id book is not available");
+                return response;
 
             }
            else if (!validation.IsPositive(id)){

@@ -16,13 +16,13 @@ namespace WebAPIBookTest
        public void GetAllBooks()
        {
             response = bookServices.GetBooks();
-            Assert.Equal(200, response.StatusCode);
+            Assert.Equal("Success", response.Message);
        }
         [Fact]
         public void GetBookwithId()
         {
             response = bookServices.GetBookbyId(3);
-            Assert.Equal(200, response.StatusCode);
+            Assert.Equal("Success", response.Message);
         }
 
         [Fact]
@@ -44,7 +44,7 @@ namespace WebAPIBookTest
         public void DeleteBookbyValidId()
         {
             response = bookServices.DeleteBook(2);
-            Assert.Equal(200, response.StatusCode);
+            Assert.Equal("Success", response.Message);
         }
 
         [Fact]
@@ -120,7 +120,50 @@ namespace WebAPIBookTest
             Assert.Equal(406, response.StatusCode);
         }
 
-       
+        [Fact]
+        public void UpdateBook_With_Wrong_id_Error404()
+        {
+            Book book = new Book
+            {
+                BookName = "TheLastQuestion",
+                BookAuthor = "IssacAsimov",
+                BookCategory = "ScienceFiction",
+                BookID = 5,
+                Price = 1500
+            };
+            response = bookServices.UpdateBook(44, book);
+            Assert.Equal("Book not found", response.Message);
+        }
+
+        [Fact]
+        public void UpdateBook_With_Negative_id_Error406()
+        {
+            Book book = new Book
+            {
+                BookName = "TheLastQuestion",
+                BookAuthor = "IssacAsimov",
+                BookCategory = "ScienceFiction",
+                BookID = 5,
+                Price = 1500
+            };
+            response = bookServices.UpdateBook(-34, book);
+            Assert.Equal("Invalid id Entered", response.Message);
+        }
+
+        [Fact]
+        public void UpdateBook_With_Wrong_BookAuthor()
+        {
+            Book book = new Book
+            {
+                BookName = "TheLastQuestion",
+                BookAuthor = "IssacAsimov54",
+                BookCategory = "ScienceFiction",
+                BookID = 5,
+                Price = 1500
+            };
+            response = bookServices.UpdateBook(3, book);
+            Assert.Equal("Invalid data Entered", response.Message);
+        }
     }
 
    
